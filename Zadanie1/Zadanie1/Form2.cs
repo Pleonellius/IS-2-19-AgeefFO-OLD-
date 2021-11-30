@@ -13,15 +13,28 @@ namespace Zadanie1
 {
     public partial class Form2 : Form
     {
+
+        static class DBUtils
+        {
+            public static string GetDBConnection()
+            {
+                string host = "caseum.ru";
+                string port = "33333";
+                string database = "db_test";
+                string username = "test_user";
+                string password = "test_pass";
+                string connString = $"server={host};port={port};user={username};database={database};password={password};";
+                return connString;
+            }
+        }
+        MySqlConnection conn = new MySqlConnection(DBUtils.GetDBConnection());
         public Form2()
         {
             InitializeComponent();
         }
-        MySqlConnection conn;
+        
         private void Form2_Load(object sender, EventArgs e)
         {
-            string connStr = "server=caseum.ru;port=33333;user=test_user;database=db_test;password=test_pass;";
-            conn = new MySqlConnection(connStr);
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -33,11 +46,11 @@ namespace Zadanie1
             }
             catch(Exception ex)
             {
-                MessageBox.Show("Произошла ошибка" + ex);
+                MessageBox.Show("Произошла ошибка: " + ex);
             }
             finally
             {
-
+                
             }
         }
     }
