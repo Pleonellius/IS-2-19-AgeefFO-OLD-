@@ -46,7 +46,7 @@ namespace Zadanie1
             public string potoks { get { return potoki; } set { potoki = value; } }
             public override void Display(ListBox listBox1)
             {
-                listBox1.Items.Add($"Цена - {price},Год - {god},Частота - {chast},Ядра - {core},Потоки - {potoki}");
+                listBox1.Items.Add($"Цена - {price},Год - {god},Частота - {chast},Ядра - {core},Потоки - {potoki}, Артикуль - {articul}");
             }
         }
          class VideoCard : Komplect<string>
@@ -66,7 +66,7 @@ namespace Zadanie1
             public string pamats { get { return pamat; } set { pamat = value; } }
             public override void Display(ListBox listBox1)
             {
-                listBox1.Items.Add($"Цена - {price},Год - {god},ЧастотаГПУ - {chastgpu},Производитель - {proizvod},Память - {pamat}");
+                listBox1.Items.Add($"Цена - {price},Год - {god},ЧастотаГПУ - {chastgpu},Производитель - {proizvod},Память - {pamat}, Артикуль - {articul}");
             }
         }
         private void button1_Click(object sender, EventArgs e)

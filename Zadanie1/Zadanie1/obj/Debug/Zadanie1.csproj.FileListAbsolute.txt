@@ -9,3 +9,6 @@ C:\Users\a31361\source\repos\Pleonellius\IS-2-19-AgeefFO\Zadanie1\Zadanie1\obj\D
 C:\Users\a31361\source\repos\Pleonellius\IS-2-19-AgeefFO\Zadanie1\Zadanie1\obj\Debug\Zadanie1.csproj.CoreCompileInputs.cache
 C:\Users\a31361\source\repos\Pleonellius\IS-2-19-AgeefFO\Zadanie1\Zadanie1\obj\Debug\Zadanie1.exe
 C:\Users\a31361\source\repos\Pleonellius\IS-2-19-AgeefFO\Zadanie1\Zadanie1\obj\Debug\Zadanie1.pdb
+C:\Users\a31361\source\repos\Pleonellius\IS-2-19-AgeefFO\Zadanie1\Zadanie1\bin\Debug\MySql.Data.dll
+C:\Users\a31361\source\repos\Pleonellius\IS-2-19-AgeefFO\Zadanie1\Zadanie1\obj\Debug\Zadanie1.Form2.resources
+C:\Users\a31361\source\repos\Pleonellius\IS-2-19-AgeefFO\Zadanie1\Zadanie1\obj\Debug\Zadanie1.csproj.CopyComplete
