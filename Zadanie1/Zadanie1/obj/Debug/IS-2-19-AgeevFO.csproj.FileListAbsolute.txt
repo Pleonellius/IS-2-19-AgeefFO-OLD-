@@ -1,0 +1,17 @@
+C:\Users\Fedya\Source\Repos\Pleonellius\IS-2-19-AgeefFO\Zadanie1\Zadanie1\bin\Debug\Zadanie1.exe.config
+C:\Users\Fedya\Source\Repos\Pleonellius\IS-2-19-AgeefFO\Zadanie1\Zadanie1\bin\Debug\Zadanie1.exe
+C:\Users\Fedya\Source\Repos\Pleonellius\IS-2-19-AgeefFO\Zadanie1\Zadanie1\bin\Debug\Zadanie1.pdb
+C:\Users\Fedya\Source\Repos\Pleonellius\IS-2-19-AgeefFO\Zadanie1\Zadanie1\obj\Debug\IS-2-19-AgeevFO.csproj.AssemblyReference.cache
+C:\Users\Fedya\Source\Repos\Pleonellius\IS-2-19-AgeefFO\Zadanie1\Zadanie1\obj\Debug\Zadanie1.Form1.resources
+C:\Users\Fedya\Source\Repos\Pleonellius\IS-2-19-AgeefFO\Zadanie1\Zadanie1\obj\Debug\Zadanie1.Form2.resources
+C:\Users\Fedya\Source\Repos\Pleonellius\IS-2-19-AgeefFO\Zadanie1\Zadanie1\obj\Debug\Zadanie1.Form3.resources
+C:\Users\Fedya\Source\Repos\Pleonellius\IS-2-19-AgeefFO\Zadanie1\Zadanie1\obj\Debug\Zadanie1.Form4.resources
+C:\Users\Fedya\Source\Repos\Pleonellius\IS-2-19-AgeefFO\Zadanie1\Zadanie1\obj\Debug\Zadanie1.Menu.resources
+C:\Users\Fedya\Source\Repos\Pleonellius\IS-2-19-AgeefFO\Zadanie1\Zadanie1\obj\Debug\Zadanie1.Properties.Resources.resources
+C:\Users\Fedya\Source\Repos\Pleonellius\IS-2-19-AgeefFO\Zadanie1\Zadanie1\obj\Debug\IS-2-19-AgeevFO.csproj.GenerateResource.cache
+C:\Users\Fedya\Source\Repos\Pleonellius\IS-2-19-AgeefFO\Zadanie1\Zadanie1\obj\Debug\IS-2-19-AgeevFO.csproj.CoreCompileInputs.cache
+C:\Users\Fedya\Source\Repos\Pleonellius\IS-2-19-AgeefFO\Zadanie1\Zadanie1\obj\Debug\IS-2-19-AgeevFO.csproj.CopyComplete
+C:\Users\Fedya\Source\Repos\Pleonellius\IS-2-19-AgeefFO\Zadanie1\Zadanie1\obj\Debug\Zadanie1.exe
+C:\Users\Fedya\Source\Repos\Pleonellius\IS-2-19-AgeefFO\Zadanie1\Zadanie1\obj\Debug\Zadanie1.pdb
+C:\Users\Fedya\Source\Repos\Pleonellius\IS-2-19-AgeefFO\Zadanie1\Zadanie1\bin\Debug\ClassLibrary3.dll
+C:\Users\Fedya\Source\Repos\Pleonellius\IS-2-19-AgeefFO\Zadanie1\Zadanie1\bin\Debug\ClassLibrary3.pdb
