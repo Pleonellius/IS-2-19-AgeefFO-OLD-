@@ -19,11 +19,11 @@ namespace Zadanie1
             Application.Run(new Menu());
         }
     }
-    class ConnectorPcs
+    class ConnectBD
     {
         public string conn = "server=caseum.ru;port=33333;user=test_user;database=db_test;password=test_pass;";
 
-        public void ConnectInfoPcs()
+        public void ConnectInfoBD()
         {
             MessageBox.Show(conn);
         }

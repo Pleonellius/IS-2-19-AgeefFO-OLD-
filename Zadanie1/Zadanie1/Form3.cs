@@ -20,7 +20,7 @@ namespace Zadanie1
 
         private void Form3_Load(object sender, EventArgs e)
         {
-            ConnectorPcs conn = new ConnectorPcs();
+            ConnectBD conn = new ConnectBD();
             MySqlConnection connect = new MySqlConnection(conn.conn);
             string sql = $"SELECT id, fio, theme_kurs FROM t_stud";
             try
