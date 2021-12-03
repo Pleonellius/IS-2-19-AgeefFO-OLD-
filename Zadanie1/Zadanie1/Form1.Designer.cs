@@ -42,44 +42,50 @@ namespace Zadanie1
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(83, 155);
+            this.textBox1.Location = new System.Drawing.Point(111, 191);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.Size = new System.Drawing.Size(132, 22);
             this.textBox1.TabIndex = 0;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(83, 181);
+            this.textBox2.Location = new System.Drawing.Point(111, 223);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
+            this.textBox2.Size = new System.Drawing.Size(132, 22);
             this.textBox2.TabIndex = 1;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(83, 207);
+            this.textBox3.Location = new System.Drawing.Point(111, 255);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
+            this.textBox3.Size = new System.Drawing.Size(132, 22);
             this.textBox3.TabIndex = 2;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(83, 233);
+            this.textBox4.Location = new System.Drawing.Point(111, 287);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
+            this.textBox4.Size = new System.Drawing.Size(132, 22);
             this.textBox4.TabIndex = 3;
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(83, 259);
+            this.textBox5.Location = new System.Drawing.Point(111, 319);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 20);
+            this.textBox5.Size = new System.Drawing.Size(132, 22);
             this.textBox5.TabIndex = 4;
             // 
             // ЦП
             // 
-            this.ЦП.Location = new System.Drawing.Point(1, 404);
+            this.ЦП.Location = new System.Drawing.Point(1, 497);
+            this.ЦП.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ЦП.Name = "ЦП";
-            this.ЦП.Size = new System.Drawing.Size(122, 46);
+            this.ЦП.Size = new System.Drawing.Size(163, 57);
             this.ЦП.TabIndex = 5;
             this.ЦП.Text = "ЦП";
             this.ЦП.UseVisualStyleBackColor = true;
@@ -87,9 +93,10 @@ namespace Zadanie1
             // 
             // ВидеоКарта
             // 
-            this.ВидеоКарта.Location = new System.Drawing.Point(156, 404);
+            this.ВидеоКарта.Location = new System.Drawing.Point(208, 497);
+            this.ВидеоКарта.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ВидеоКарта.Name = "ВидеоКарта";
-            this.ВидеоКарта.Size = new System.Drawing.Size(102, 46);
+            this.ВидеоКарта.Size = new System.Drawing.Size(136, 57);
             this.ВидеоКарта.TabIndex = 6;
             this.ВидеоКарта.Text = "ВидеоКарта";
             this.ВидеоКарта.UseVisualStyleBackColor = true;
@@ -98,23 +105,26 @@ namespace Zadanie1
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(281, 15);
+            this.listBox1.ItemHeight = 16;
+            this.listBox1.Location = new System.Drawing.Point(375, 18);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(507, 420);
+            this.listBox1.Size = new System.Drawing.Size(675, 516);
             this.listBox1.TabIndex = 7;
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(83, 285);
+            this.textBox6.Location = new System.Drawing.Point(111, 351);
+            this.textBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 20);
+            this.textBox6.Size = new System.Drawing.Size(132, 22);
             this.textBox6.TabIndex = 8;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.ВидеоКарта);
@@ -124,8 +134,10 @@ namespace Zadanie1
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
