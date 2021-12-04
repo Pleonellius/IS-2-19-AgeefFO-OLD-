@@ -13,6 +13,6 @@ C:\Users\Fedya\Source\Repos\Pleonellius\IS-2-19-AgeefFO\Zadanie1\Zadanie1\obj\De
 C:\Users\Fedya\Source\Repos\Pleonellius\IS-2-19-AgeefFO\Zadanie1\Zadanie1\obj\Debug\IS-2-19-AgeevFO.csproj.CopyComplete
 C:\Users\Fedya\Source\Repos\Pleonellius\IS-2-19-AgeefFO\Zadanie1\Zadanie1\obj\Debug\Zadanie1.exe
 C:\Users\Fedya\Source\Repos\Pleonellius\IS-2-19-AgeefFO\Zadanie1\Zadanie1\obj\Debug\Zadanie1.pdb
+C:\Users\Fedya\Source\Repos\Pleonellius\IS-2-19-AgeefFO\Zadanie1\Zadanie1\obj\Debug\Zadanie1.Form5.resources
 C:\Users\Fedya\Source\Repos\Pleonellius\IS-2-19-AgeefFO\Zadanie1\Zadanie1\bin\Debug\ClassLibrary3.dll
 C:\Users\Fedya\Source\Repos\Pleonellius\IS-2-19-AgeefFO\Zadanie1\Zadanie1\bin\Debug\ClassLibrary3.pdb
-C:\Users\Fedya\Source\Repos\Pleonellius\IS-2-19-AgeefFO\Zadanie1\Zadanie1\obj\Debug\Zadanie1.Form5.resources
