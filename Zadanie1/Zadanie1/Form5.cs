@@ -14,47 +14,44 @@ namespace Zadanie1
 {
     public partial class Form5 : Form
     {
+        MySqlConnection conn;
+        //Строка для подчения к БД
+        readonly string connStr= "server=caseum.ru;port=33333;user=test_user;database=db_test;password=test_pass;";
         public Form5()
         {
             InitializeComponent();
         }
-
+        
         private void button1_Click(object sender, EventArgs e)
         {
-            Class1 conn4 = new Class1();
-            MySqlConnection connect = new MySqlConnection(conn4.connDB); 
-            string fioStud = textBox2.Text; 
-            string time = DateTime.Now.ToString("dd-MM-yyyy hh:mm:ss"); 
-            MessageBox.Show(time);
-            string timeStud = textBox1.Text == "" ? time : textBox1.Text; 
-            string sql = $"INSERT INTO t_PraktStud (fioStud, datetimeStud)  VALUES ('{fioStud}','{timeStud}');";
-            int counter = 0;
-            try
-            {
-                connect.Open();
-
-                MySqlCommand command1 = new MySqlCommand(sql, connect);
-                counter = command1.ExecuteNonQuery();
-
-            }
-            catch
-            {
-                MessageBox.Show("Произошла ошибка");
-            }
-            finally
-            {
-                connect.Close();
-
-                if (counter != 0)
-                {
-                    MessageBox.Show("Ввод данных успешен");
-                }
-            }
+            label2.Text = dateTimePicker1.Text;
+            label3.Text = dateTimePicker1.Value.ToShortDateString();
         }
 
-        private void Form5_Load(object sender, EventArgs e)
+            private void Form5_Load(object sender, EventArgs e)
         {
 
+        }
+        private void button2_Click(object sender, EventArgs e)
+        {
+            //Создаём экземпляр 
+            using (MySqlConnection conn = new MySqlConnection(connStr))
+            {
+                //Открываем соединение
+                conn.Open();
+                using (MySqlCommand cmd = new MySqlCommand("INSERT INTO t_PraktStud (fioStud,datetimeStud) " +
+                   "VALUES (@name, @date)", conn))
+                {
+                    //Использование параметров в запросах. Это повышает безопасность работы программы
+                    cmd.Parameters.Add("@name", MySqlDbType.VarChar).Value = textBox1.Text;
+                    cmd.Parameters.Add("@date", MySqlDbType.Timestamp).Value = dateTimePicker1.Value;
+                    int insertedRows = cmd.ExecuteNonQuery();
+                    // закрываем подключение  БД
+                    conn.Close();
+
+                }
+            }
+                
         }
     }
 }
