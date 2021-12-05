@@ -13,7 +13,7 @@ namespace Zadanie1
 {
     public partial class Form2 : Form
     {
-
+        //Класс для подключения к БД
         static class DBUtils
         {
             public static string GetDBConnection()
@@ -27,6 +27,7 @@ namespace Zadanie1
                 return connString;
             }
         }
+        //Создание объекта для подключения к БД
         MySqlConnection conn = new MySqlConnection(DBUtils.GetDBConnection());
         public Form2()
         {
@@ -39,11 +40,13 @@ namespace Zadanie1
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //Если подключение установленно, то выводится MessageBox с надписью Подключено
             try
             {
                 conn.Open();
-                MessageBox.Show("Подключение");
+                MessageBox.Show("Подключено");
             }
+            //Если подключение не установленно, то выводится ошибка и название ошибки
             catch(Exception ex)
             {
                 MessageBox.Show("Произошла ошибка: " + ex);
@@ -52,6 +55,11 @@ namespace Zadanie1
             {
                 
             }
+        }
+        //Закрытие формы
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

@@ -24,10 +24,8 @@ namespace Zadanie1
         
         private void button1_Click(object sender, EventArgs e)
         {
-            label2.Text = dateTimePicker1.Text;
-            label3.Text = dateTimePicker1.Value.ToShortDateString();
+          
         }
-
             private void Form5_Load(object sender, EventArgs e)
         {
 
@@ -52,6 +50,11 @@ namespace Zadanie1
                 }
             }
                 
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IS-2-19-AgeevFO", "Zadanie1\IS-2-19-AgeevFO.csproj", "{ECA2A305-BEAB-4BB8-B526-FE4B0F8588EC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibrary3", "..\..\..\ClassLibrary3\ClassLibrary3\ClassLibrary3.csproj", "{ACD918E8-248C-4EF1-934D-2C15BBB892E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConnectDB", "..\..\..\ClassLibrary3\ClassLibrary3\ConnectDB.csproj", "{ACD918E8-248C-4EF1-934D-2C15BBB892E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

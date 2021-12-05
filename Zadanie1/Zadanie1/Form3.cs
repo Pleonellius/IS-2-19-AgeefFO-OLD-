@@ -66,5 +66,10 @@ namespace Zadanie1
                 MessageBox.Show(id_rows);
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
