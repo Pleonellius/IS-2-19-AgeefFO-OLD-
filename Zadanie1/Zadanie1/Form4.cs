@@ -20,9 +20,11 @@ namespace Zadanie1
         }
         private void Form4_Load(object sender, EventArgs e)
         {
+            //Создание экземпляра
             Class1 conn4 = new Class1();
             MySqlConnection connect = new MySqlConnection(conn4.connDB);
             string sql = $"SELECT idStud, fioStud, drStud FROM t_datetime";
+            //Проверка подключения
             try
             {
                 connect.Open();
@@ -36,7 +38,7 @@ namespace Zadanie1
             }
             catch
             {
-                MessageBox.Show("Произошла шибка");
+                MessageBox.Show("Произошла ошибка");
             }
             finally
             {
@@ -47,8 +49,10 @@ namespace Zadanie1
 
         private void dataGridView1_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
         {
+            //Срабатывание кода на кнопку мыши
             if (!e.RowIndex.Equals(-1) && !e.ColumnIndex.Equals(-1) && e.Button.Equals(MouseButtons.Left))
             {
+                //Определение строки
                 dataGridView1.CurrentCell = dataGridView1[e.ColumnIndex, e.RowIndex];
 
                 dataGridView1.CurrentRow.Selected = true;
@@ -59,6 +63,7 @@ namespace Zadanie1
 
                 id_rows5 = dataGridView1.Rows[Convert.ToInt32(index_rows5)].Cells[2].Value.ToString();
                 DateTime x = DateTime.Today;
+                //Переменной присваивается значение выбранной строки
                 DateTime y = Convert.ToDateTime(dataGridView1.Rows[Convert.ToInt32(index_rows5)].Cells[2].Value.ToString());
                 string resultDays = (x - y).ToString(); 
                 MessageBox.Show("Со дня рождения прошло " + resultDays.Substring(0, resultDays.Length - 9) + " дней"); 
@@ -69,7 +74,7 @@ namespace Zadanie1
         {
 
         }
-
+        //Закрытие формы
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();

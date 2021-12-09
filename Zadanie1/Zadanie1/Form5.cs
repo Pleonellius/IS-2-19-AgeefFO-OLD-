@@ -40,13 +40,20 @@ namespace Zadanie1
                 using (MySqlCommand cmd = new MySqlCommand("INSERT INTO t_PraktStud (fioStud,datetimeStud) " +
                    "VALUES (@name, @date)", conn))
                 {
-                    //Использование параметров в запросах. Это повышает безопасность работы программы
-                    cmd.Parameters.Add("@name", MySqlDbType.VarChar).Value = textBox1.Text;
-                    cmd.Parameters.Add("@date", MySqlDbType.Timestamp).Value = dateTimePicker1.Value;
-                    int insertedRows = cmd.ExecuteNonQuery();
-                    // закрываем подключение  БД
-                    conn.Close();
-
+                    //Условная конструкция
+                    if (textBox1.Text == "")
+                    {
+                        MessageBox.Show("Введите Ф.И.О студента");
+                    }
+                    else
+                    {
+                        //Использование параметров в запросах. Это повышает безопасность работы программы
+                        cmd.Parameters.Add("@name", MySqlDbType.VarChar).Value = textBox1.Text;
+                        cmd.Parameters.Add("@date", MySqlDbType.Timestamp).Value = dateTimePicker1.Value;
+                        int insertedRows = cmd.ExecuteNonQuery();
+                        // закрываем подключение  БД
+                        conn.Close();
+                    }
                 }
             }
                 
@@ -55,6 +62,11 @@ namespace Zadanie1
         private void button1_Click_1(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
