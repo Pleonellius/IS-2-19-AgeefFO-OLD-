@@ -19,7 +19,7 @@ namespace Zadanie1
             public static string GetDBConnection()
             {
                 string host = "caseum.ru";
-                string port = "33333";
+                string port = "33343";
                 string database = "db_test";
                 string username = "test_user";
                 string password = "test_pass";
